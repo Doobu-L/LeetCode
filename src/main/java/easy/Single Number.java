@@ -18,4 +18,4 @@ class Solution {
     }
 }
 
-//성능이 매우 안좋다 if문 안에 nums^=num 으로 XOR 연산으로 성능 향상을 시킬 방법이있음.
+//성능이 매우 안좋다 if문 안에result^=num 으로 XOR 연산으로 성능 향상을 시킬 방법이있음.
