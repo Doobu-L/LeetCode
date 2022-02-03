@@ -11,3 +11,17 @@ public int maxSubArray(int[] nums) {
 }
 
 //1차 time limit....
+
+
+
+//2차 통과
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int largestSum = nums[0],subSum=0;
+		for(int num:nums){
+			subSum = Math.max(subSum+num,num);
+			largestSum = Math.max(subSum,largestSum);
+		}
+		return largestSum;
+    }
+}
